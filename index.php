@@ -215,6 +215,7 @@ $CONF = require('config.php');
             <div class="slide content-slide">
                 <p style="text-align:center">A
                     <?php
+		    date_default_timezone_set("US/Eastern");
                     $yr=date('Y') - 2016 + (date('m') >= 8 ? 1 : 0);
                     $graduated = false;
                     if ($yr === 1) echo '1st';
@@ -231,7 +232,7 @@ $CONF = require('config.php');
                 <h1>Education</h1>
                 <p>Bachelor's of Science in Computer Science (May 2020)</p>
                 <p>New Jersey Institute of Technology</p>
-                <p>3.96 GPA</p>
+                <p>3.97 GPA</p>
             </div>
 
             <div class="slide content-slide" style="text-align:right">
