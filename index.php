@@ -247,6 +247,31 @@ $CONF = require('config.php');
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="project-container">
+                            <a class="project-link" target="_blank" href="http://ec2-52-42-248-119.us-west-2.compute.amazonaws.com:3000">
+			    <!---<a class="project-link" target="_blank" href="http://69.142.165.108:3000">-->
+                                <div class="project-heading">Bug of the Hill</div>
+                                <div class="project-body">
+
+                                    <img class="img-fluid" src="./assets/img/project_screenshots/bug_of_the_hill_screenshot.jpg">
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+		    <div class="clearfix"></div>
+		    <div class="col-lg-4 col-md-6 col-sm-12">
+		    	<div class="project-container">
+			    <a class="project-link" target="_blank" href="https://chrome.google.com/webstore/detail/njit-ui-helper/gochdcmeialajkeplnjgciicblecbolk?hl=en-US">
+			        <div class="project-heading">NJIT Crummy UI Helper</div>
+			        <div class="project-body">
+			            <img class="img-fluid" src="./assets/img/project_screenshots/njit_ui_helper_screenshot_aboutme.png">
+			        </div>
+			    </a>
+			</div>
+		    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="project-container">
                             <a class="project-link" href="./project_files/candidate_crush/candidate-crush.jar" download>
                             <div class="project-heading">Candidate Crush</div>
                                 <div class="project-body">
@@ -265,20 +290,6 @@ $CONF = require('config.php');
                                 <div class="project-body">
 
                                     <img class="img-fluid" src="./assets/img/project_screenshots/tank_shootout_screenshot.jpg">
-
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="project-container">
-                            <!---<a class="project-link" target="_blank" href="http://ec2-52-42-248-119.us-west-2.compute.amazonaws.com:3000" download>-->
-			    <a class="project-link" target="_blank" href="http://69.142.165.108:3000">
-                                <div class="project-heading">Bug of the Hill</div>
-                                <div class="project-body">
-
-                                    <img class="img-fluid" src="./assets/img/project_screenshots/bug_of_the_hill_screenshot.jpg">
 
                                 </div>
                             </a>
