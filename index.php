@@ -225,7 +225,7 @@ $CONF = require('config.php');
                     else $graduated = true;
                     if (!$graduated) echo ' year';
                     else echo 'graduated';
-                    ?> Computer Science student who loves to show off his projects</p>
+                    ?> Computer Science student who loves to share his projects</p>
             </div>
 
             <div class="slide content-slide">
@@ -238,6 +238,7 @@ $CONF = require('config.php');
             <div class="slide content-slide" style="text-align:right">
                 <h1>Experience</h1>
                 <p>Worked 1 year as full-stack web-developer</p>
+		<p>Currently working part-time at Everest ReInsurance as Software Developer</p>
                 <p>Won RDE coding challenge 2.0</p>
                 <p>Participated in several hackathons</p>
             </div>
